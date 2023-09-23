@@ -31,6 +31,8 @@ ul{
     color: navy;
 }
 .header-solution{
+    background-color: var(--NAVY-BLUE);
+    color:var(--WHITE);
 }
 .footer{
     background-color: var(--NAVY-BLUE);
@@ -39,6 +41,9 @@ ul{
 .order{
     background-color: var(--IRIS);
     color: var(--WHITE);
+}
+h2{
+    font-size: 40px;
 }
 .order:hover{
     opacity: .5;
