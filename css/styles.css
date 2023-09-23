@@ -7,8 +7,8 @@
 body{
     font-family: roboto,sans-serif;
     font-size:16px;
-    line-height: 150%;
-    
+    line-height:24px /* 150% */;
+    font-weight: 400;
 }
 
 .logo span{
@@ -31,10 +31,6 @@ ul{
     color: navy;
 }
 .header-solution{
-    background-color: var(--NAVY-BLUE);
-    color: var(--WHITE);
-    font-size:56px;
-    font-weight:700;
 }
 .footer{
     background-color: var(--NAVY-BLUE);
