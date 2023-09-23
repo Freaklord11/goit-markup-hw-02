@@ -3,7 +3,6 @@
     --IRIS: #4D5AE5;
     --WHITE: #FFF;
 }
-
 body{
     font-family: roboto,sans-serif;
     font-size:16px;
@@ -31,7 +30,7 @@ ul{
 
 .logo{
     text-decoration: none;
-    color: navy;
+    color: var(--WHITE);
 }
 .header-solution{
     background-color: var(--NAVY-BLUE);
