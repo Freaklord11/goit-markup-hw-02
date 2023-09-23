@@ -62,7 +62,6 @@ h2{
 }
 .order{
     border-style: none;
-    border-radius: 2%;
 }
 .order:hover{
     opacity: .5;
