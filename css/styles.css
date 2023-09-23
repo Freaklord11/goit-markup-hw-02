@@ -37,7 +37,7 @@ ul{
     background-color: var(--NAVY-BLUE);
     color:var(--WHITE);
 }
-.footer{
+footer{
     background-color: var(--NAVY-BLUE);
     color:var(--WHITE);
 }
@@ -50,6 +50,10 @@ h2{
 }
 .navi a{
     text-decoration: none;
+}
+.order{
+    border-style: none;
+    border-radius: 2%;
 }
 .order:hover{
     opacity: .5;
