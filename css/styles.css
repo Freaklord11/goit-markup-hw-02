@@ -1,0 +1,46 @@
+:root{
+    --NAVY-BLUE: #2E2F42;
+    --IRIS: #4D5AE5;
+    --WHITE: #FFF;
+}
+
+body{
+    font-family: roboto,sans-serif;
+}
+
+.logo span{
+    color: var(--IRIS);
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    padding-left: 0%;
+}
+.header-sub{
+    text-align: center;
+}
+.logo{
+    text-decoration: none;
+    color: navy;
+}
+.header-solution{
+    background-color: var(--NAVY-BLUE);
+    color: var(--WHITE);
+    font-size:56px;
+    font-weight:700;
+}
+.footer{
+    background-color: var(--NAVY-BLUE);
+    color:var(--WHITE);
+}
+.order{
+    background-color: var(--IRIS);
+    color: var(--WHITE);
+}
+.order:hover{
+    opacity: .5;
+}
