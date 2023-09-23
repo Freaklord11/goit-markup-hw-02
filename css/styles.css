@@ -9,12 +9,25 @@ body{
     line-height:24px /* 150% */;
     font-weight: 400;
 }
-.logo a{
-    font-size: 36px;
+
+.logo{
+    text-decoration: none;
+    color: var(--NAVY-BLUE);
 }
 .logo span{
-    color: var(--IRIS);
+    color:var(--IRIS);
+}
+
+header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.logo-footer{
     text-decoration: none;
+    color:var(--WHITE);
+}
+.logo-footer span{
+    color:var(--IRIS);
 }
 /* list style global*/
 li{
@@ -26,11 +39,6 @@ ul{
 
 .header-sub{
     text-align: center;
-}
-
-.logo{
-    text-decoration: none;
-    color: var(--WHITE);
 }
 .header-solution{
     background-color: var(--NAVY-BLUE);
@@ -60,4 +68,8 @@ h2{
 .contacts a{
     text-decoration: none;
     font-style: normal;
+}
+.logo-footer span{
+    color: var(--IRIS);
+    text-decoration: none;
 }
