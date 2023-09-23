@@ -10,22 +10,25 @@ body{
     line-height:24px /* 150% */;
     font-weight: 400;
 }
-
+.logo a{
+    font-size: 36px;
+}
 .logo span{
     color: var(--IRIS);
     text-decoration: none;
 }
-
+/* list style global*/
 li{
     list-style: none;
 }
-
 ul{
     padding-left: 0%;
 }
+
 .header-sub{
     text-align: center;
 }
+
 .logo{
     text-decoration: none;
     color: navy;
@@ -45,6 +48,13 @@ ul{
 h2{
     font-size: 40px;
 }
+.navi a{
+    text-decoration: none;
+}
 .order:hover{
     opacity: .5;
+}
+.contacts a{
+    text-decoration: none;
+    font-style: normal;
 }
