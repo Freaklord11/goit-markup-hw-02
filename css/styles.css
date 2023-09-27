@@ -3,6 +3,7 @@
     --IRIS: #4D5AE5;
     --WHITE: #FFF;
 }
+/*Body Default Value*/
 body{
     font-family: roboto,sans-serif;
     font-size:16px;
@@ -10,6 +11,7 @@ body{
     font-weight: 400;
 }
 
+/* Navigation Section */
 .logo{
     text-decoration: none;
     color: var(--NAVY-BLUE);
